@@ -70,3 +70,22 @@ section{
     border-radius: 6px;
     margin: 32px 322px;
 }
+/* section-2 */
+.section-2{
+    height: 1393px;
+    width: 1140px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 74px;
+}
+.section-2-header h1{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.section-2-header p{
+    text-align: center;
+    font-family: Azeret Mono;
+}
