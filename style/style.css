@@ -5,7 +5,7 @@ nav li{
     justify-content: space-between;
     /* padding: 30px; */
     display: flex;
-    padding: 40px 70px;
+    padding: 40px 200px;
     
 
    
@@ -26,13 +26,47 @@ nav li button{
     font-size: 18px;
     padding: 10px;
 }
+/* section-1 */
 .section-1{
     text-align: center;
+    
 }
 section{
     width: 1440px;
     height: 652px;
-    border: 2px solid;
-    border-radius: 2px;
-    position: ;
+    /* border: 2px solid; */
+    border-radius: 8px;
+    margin: 0 auto;
+    background-image: url(../assets/Hero-bg.png);
+    margin: 0px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.image{
+    text-align: center;
+    padding: 26px 599px 5px 599px;
+}
+.font h1{
+    padding: 0px 0 0 0;
+     font-family: Azeret Mono ; 
+    font-weight: 800;
+    font-size: 48px;
+    Row height: 68px
+}
+.font p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Azeret Mono;
+}
+.font button{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Azeret Mono ;
+    padding: 10px;
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    margin: 32px 322px;
 }
