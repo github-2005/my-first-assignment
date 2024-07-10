@@ -31,7 +31,7 @@ nav li button{
     text-align: center;
     
 }
-section{
+header > div{
     width: 1440px;
     height: 652px;
     /* border: 2px solid; */
@@ -72,20 +72,202 @@ section{
 }
 /* section-2 */
 .section-2{
-    height: 1393px;
     width: 1140px;
+    height: 1395px;
+    /* border: 2px solid; */
+    margin: 0 auto;
+    margin-top: 74px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    margin-top: 74px;
 }
 .section-2-header h1{
-    text-align: center;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
+    text-align: center;
+    padding-top:0px;
 }
-.section-2-header p{
+.section-2-header {
+    text-align: center;
+}
+div{
+    padding:40px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.top{
+    width: 946px;
+    height: 250px;
+    /* width: 30%; */
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0 auto;
+    font-family: Azeret Mono;
+    margin-top: 30px;  
+}
+.box{
+    display: flex;
+    padding: 0px;
+    gap: 120px;
+}
+.left{
+    width: 50px;
+    /* border: 2px solid; */
+    height: 200px;
+    margin: 0px;
+    width: 400px;
+    padding: 0px; 
+}
+.left h2{
+      font-size: 26px;
+      font-weight: 700;
+}
+.right{
+    width: 50px;
+    /* border: 2px solid; */
+    height: 200px;
+   margin: 0px;
+   width: 400px;
+   display: flex;
+   padding: 0px;
+}
+  
+
+    
+ 
+.boton{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    margin-right: 100px;
+    padding: 8px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.button{
+    padding: 0px;
+}
+.middle{
+    width: 946px;
+    height: 250px;
+    /* width: 30%; */
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0 auto;
+    font-family: Azeret Mono;
+    margin-top: 30px;
+    
+    
+}
+
+
+.down{
+    font-family: Azeret Mono;
+    width: 946px;
+    height: 250px;
+    /* width: 30%; */
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+/* section-3 */
+.section-3{
+     width: 1140px;
+     height: 775px;
+     /* border: 2px solid; */
+     margin: 0 auto;
+     margin-top: 88px;
+     border-radius: 10px;
+     
+}
+.inspiration{
     text-align: center;
     font-family: Azeret Mono;
+   
 }
+.inspiration h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 0;
+}
+.video{
+    text-align: center;
+    margin: 0;
+   padding: 0;
+}
+/* section=4 */
+.section-4{
+    width: 1140px;
+    height: 460px;
+    /* border: 2px solid; */
+    margin: 0 auto;
+}
+.tirget{
+    font-family: Azeret Mono;
+    text-align: center;
+    margin-top: 0;
+    padding: 0px;
+}
+.tirget h3{
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 0; 
+    margin-top: 0;
+}
+.boxer{
+    display: flex;
+    gap: 24px;
+}
+.lef{
+    width: 33%;
+    /* border: 2px solid; */
+    height: 200px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.mid{
+    width: 33%;
+    /* border: 2px solid; */
+    height: 200px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.righ{
+    width: 33%;
+    /* border: 2px solid; */
+    height: 200px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.lef h2{
+    font-size: 24px;
+    font-weight: 800;
+}
+.mid h2{
+    font-size: 24px;
+    font-weight: 800;
+}
+.righ h2{
+    font-size: 24px;
+    font-weight: 800;
+}
+.lef a{
+    font-size: 16px;
+    font-weight: 700;
+}
+.mid a{
+    font-size: 16px;
+    font-weight: 700;
+}
+.righ a{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
