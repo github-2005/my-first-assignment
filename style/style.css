@@ -1,4 +1,6 @@
-/* Header */
+/* banner style */
+
+
 nav li{
     display: flex;
     list-style: none;
@@ -34,6 +36,7 @@ nav li button{
 header > div{
     width: 1440px;
     height: 652px;
+    
     /* border: 2px solid; */
     border-radius: 8px;
     margin: 0 auto;
