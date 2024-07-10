@@ -330,25 +330,27 @@ form{
 }
 /*footer */
 .footer{
-    width: 1440px;
+    width: 1240px;
     height: 100px;
     border-radius: 16px;
-    background: rgba(164, 165, 168, 0.03);
-    border: 2px solid;
+    background: rgba(125, 127, 132, 0.03);
+    /* border: 2px solid; */
     border-radius: 8px;
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    padding: 0 170px;
+    padding: 0 100px;
+    margin: 0 auto;
+    margin-top: 80px;
 }
 .footer p{
     font-size: 18px;
     font-family: Azeret Mono;
     font-weight: 600;
     padding-top: 30px;
+    padding-left: 45px;
+    /* padding-right: 20px; */
 } 
-.link a{
-    margin-right: 280px;
-  
-   
+.ankor a{
+    padding: 10px;
 }
